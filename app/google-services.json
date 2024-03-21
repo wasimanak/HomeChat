@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1078245775288",
+    "firebase_url": "https://homechat-e3ed8-default-rtdb.firebaseio.com",
+    "project_id": "homechat-e3ed8",
+    "storage_bucket": "homechat-e3ed8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1078245775288:android:311d0f72d073e398cf214d",
+        "android_client_info": {
+          "package_name": "com.pksofter.www.homechat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1078245775288-ge8r4dgsuej2gueqflest2gmq2hu237q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeJ0Y-a0tEuIkOaoRy4BfrVFqrdzRN-9A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1078245775288-ge8r4dgsuej2gueqflest2gmq2hu237q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

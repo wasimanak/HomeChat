@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">HomeChat</string>
+    <string name="a">!;</string>
+    <string name="b">!@</string>
+    <string name="c">!#</string>
+    <string name="d">!$</string>
+    <string name="e">!%</string>
+    <string name="f">!^</string>
+    <string name="g">!:</string>
+    <string name="h">!*</string>
+    <string name="i">!(</string>
+    <string name="j">!)</string>
+    <string name="k">!_</string>
+    <string name="l">!-</string>
+    <string name="m">!=</string>
+    <string name="n">!+</string>
+    <string name="o">!1</string>
+    <string name="p">!2</string>
+    <string name="q">!3</string>
+    <string name="r">!4</string>
+    <string name="s">!5</string>
+    <string name="t">!6</string>
+    <string name="u">!7</string>
+    <string name="v">!8</string>
+    <string name="w">!9</string>
+    <string name="x">!10</string>
+    <string name="y">!11</string>
+    <string name="z">!12</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:paddingLeft="@dimen/_3sdp"
+    android:paddingRight="@dimen/_30sdp"
+    android:paddingBottom="@dimen/_3sdp"
+    android:paddingTop="@dimen/_3sdp"
+
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/left_bubble"
+        android:layout_alignParentRight="false"
+        android:paddingLeft="@dimen/_10sdp"
+        android:paddingRight="@dimen/_10sdp"
+        android:paddingBottom="@dimen/_5sdp"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/_5sdp"
+        >
+        <TextView
+            android:id="@+id/tv_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Hello this is adnan .how are you"
+            ></TextView>
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="wrap_content"
+            android:text="10:45 pm"
+            android:gravity="start"
+            android:textSize="@dimen/_7ssp"
+            android:layout_marginTop="@dimen/_5sdp"
+
+
+            ></TextView>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChatingActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45sdp"
+        android:orientation="horizontal"
+        android:id="@+id/main"
+        android:gravity="center_vertical"
+        android:background="@android:color/holo_orange_light"
+
+
+        >
+        <ImageView
+            android:id="@+id/btn_back"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/ic_keyboard_backspace_black_24dp"
+            android:padding="@dimen/_5sdp"
+            app:tint="@color/white"
+
+            />
+        <ImageView
+            android:id="@+id/iv_userdp"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:src="@drawable/user_male_default"
+            android:layout_marginLeft="@dimen/_10sdp"
+            app:tint="@color/white"
+
+            ></ImageView>
+        <TextView
+            android:id="@+id/tv_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Adnan"
+            android:textSize="@dimen/_15ssp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="@dimen/_10sdp"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:visibility="gone"
+                android:padding="@dimen/_5sdp"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/_50sdp"
+        android:layout_below="@id/main"
+        android:id="@+id/rv_msg"
+        >
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_alignParentBottom="true"
+        android:weightSum="2"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/et_sms"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.6"
+            android:background="@drawable/gray_strok"
+            android:layout_marginTop="@dimen/_4sdp"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_4sdp"
+            android:hint="Message"
+            android:paddingLeft="@dimen/_15sdp"
+            android:textColor="@android:color/holo_orange_light"
+
+            ></EditText>
+        <ImageView
+            android:id="@+id/btn_sendsms"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.4"
+            android:src="@drawable/ic_send_black_24dp"
+            app:tint="@android:color/holo_blue_light"
+            android:padding="@dimen/_5sdp"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

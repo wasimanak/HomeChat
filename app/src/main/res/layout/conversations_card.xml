@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="@dimen/_3sdp"
+    android:layout_margin="@dimen/_3sdp"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_50sdp"
+    android:id="@+id/card"
+    >
+    <LinearLayout
+        android:layout_margin="@dimen/_5sdp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="3">
+<ImageView
+    android:id="@+id/iv_userdp"
+    android:layout_width="0dp"
+    android:layout_height="@dimen/_40sdp"
+    android:layout_weight="0.4"
+    android:src="@drawable/user_male_default"
+    android:layout_gravity="center_vertical"
+    />
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="2.0"
+        android:weightSum="2"
+        android:paddingLeft="@dimen/_10sdp"
+        >
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Adnan"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/_15ssp"
+            android:textColor="@android:color/darker_gray"
+
+            />
+        <TextView
+            android:id="@+id/tv_lastmsg"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:text="hi addi how are you ?"
+            android:gravity="center_vertical"
+            android:textColor="@android:color/darker_gray"
+
+            />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.6"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:text="10:45 pm"
+        android:gravity="center"
+        android:textColor="@android:color/darker_gray"
+
+        />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

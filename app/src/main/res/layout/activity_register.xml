@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Create Account"
+                android:textColor="@android:color/holo_orange_light"
+
+                android:layout_marginTop="@dimen/_35sdp"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:textSize="@dimen/_20ssp"
+                />
+
+
+            <EditText
+                android:id="@+id/et_name"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginTop="@dimen/_60sdp"
+                android:background="@android:color/white"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:textColor="@android:color/darker_gray"
+                android:singleLine="true"
+                android:drawableLeft="@drawable/ic_baseline_perm_identity_24"
+                android:drawableTint="@android:color/holo_orange_light"
+                android:drawablePadding="@dimen/_15sdp"
+                android:paddingLeft="@dimen/_10sdp"
+                android:hint="Name"
+
+                ></EditText>
+            <EditText
+                android:id="@+id/et_email"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:background="@android:color/white"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:textColor="@android:color/darker_gray"
+                android:singleLine="true"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:drawableLeft="@drawable/ic_baseline_mail_outline_24"
+                android:drawableTint="@android:color/holo_orange_light"
+                android:drawablePadding="@dimen/_15sdp"
+                android:paddingLeft="@dimen/_10sdp"
+                android:hint="Email"
+                ></EditText>
+
+            <EditText
+                android:id="@+id/et_password"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:background="@android:color/white"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:textColor="@android:color/holo_orange_light"
+                android:singleLine="true"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:drawableLeft="@drawable/ic_baseline_lock_24"
+                android:drawableTint="@android:color/holo_orange_light"
+                android:drawablePadding="@dimen/_15sdp"
+                android:paddingLeft="@dimen/_10sdp"
+                android:hint="Password"
+                android:inputType="textPassword"
+                ></EditText>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/btn_continue"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:text="CONTINUE"
+            android:textStyle="bold"
+
+            android:textSize="@dimen/_15ssp"
+            android:gravity="center"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_40sdp"
+            android:textColor="@color/white"
+            android:background="@android:color/holo_orange_light"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_alignParentBottom="true"
+            ></TextView>
+    </RelativeLayout>
+
+</LinearLayout>
